@@ -1,0 +1,40 @@
+body,
+section {
+   padding-top: 70px;
+   font-size: 16px;
+}
+
+section {
+   height: 1000px;
+   margin: 25px 0;
+}
+
+.colors-one,
+.colors-one h2 {
+   color: #ebea76;
+}
+
+.colors-two,
+.colors-two h2 {
+   background: #00cd34;
+   color: #bc00bb;
+}
+
+.colors-three,
+.colors-three h2 {
+   background: green;
+   color: red;
+}
+
+#skip-link {
+   position: absolute;
+   background: red;
+   color: white;
+   padding: 8px;
+   top: -50px;
+   z-index: 999999;
+}
+
+#skip-link:focus {
+   top: 0;
+}
